@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6143e5fa-34c7-40f0-8808-24bc41564fef" name="Changes" comment="Project Structure">
-      <change afterPath="$PROJECT_DIR$/.idea/terraform.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/provider.tf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/variables.tf" afterDir="false" />
+    <list default="true" id="6143e5fa-34c7-40f0-8808-24bc41564fef" name="Changes" comment="Create Variable files and providers">
+      <change afterPath="$PROJECT_DIR$/main.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/outputs.tf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/terraform.tfvars" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userdata.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +46,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "SHELLCHECK.PATH": "C:\\Users\\bhats\\AppData\\Roaming\\JetBrains\\PyCharm2025.1\\plugins\\Shell Script\\shellcheck.exe",
     "Terraform.Init terraform-aws-ec2-nginx.executor": "Run",
     "git-widget-placeholder": "master",
     "node.js.detected.package.eslint": "true",
@@ -99,7 +102,7 @@
       <option name="presentableId" value="Default" />
       <updated>1750019195082</updated>
       <workItem from="1750019196178" duration="487000" />
-      <workItem from="1750019749732" duration="503000" />
+      <workItem from="1750019749732" duration="1224000" />
     </task>
     <task id="LOCAL-00001" summary="Project Structure">
       <option name="closed" value="true" />
@@ -117,7 +120,15 @@
       <option name="project" value="LOCAL" />
       <updated>1750019934746</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Create Variable files and providers">
+      <option name="closed" value="true" />
+      <created>1750020309427</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1750020309427</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -125,6 +136,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Project Structure" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project Structure" />
+    <MESSAGE value="Create Variable files and providers" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create Variable files and providers" />
   </component>
 </project>
